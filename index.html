@@ -12,6 +12,7 @@
     <title>HideU官网</title>
     <link href="" rel="shortcut icon" type="image/x-icon">
     <link rel="shortcut icon" href="https://hideu.blob.core.windows.net/hideu/img/hulogo.png">
+	<link rel="stylesheet" href="css/loading.css">
   </head>
 <body>
 
@@ -24,5 +25,16 @@
     var newUrlBase = "https://hideu.gitlab.io/" + oriUrl;
     setTimeout(window.location.href=newUrlBase, 2);
 </script>
+	
+	 <script src="js/loading.js"></script>
+        <script>
+            var Loading = new Loading({
+                timeToHide:1200,
+                bgColor:"#2ecc71",
+                spinner:"Loading13",
+                zIndex:999,
+                // imagePath:'http://img.zcool.cn/community/01782456e7d32d32f875520fdb6d64.gif'
+            });
+        </script>
 </body>
 </html>
