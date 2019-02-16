@@ -19,12 +19,6 @@
 <a href="https://hideu.gitlab.io/" target="_blank">HideU官网</a>
 <br>
 <a href="https://hideu.gitlab.io/download.html" target="_blank">HideU各平台软件下载</a>
-	<script type="text/javascript">
-  window.dataLayer = window.dataLayer || [];
-	var oriUrl = window.location.search;
-    var newUrlBase = "https://hideu.gitlab.io/" + oriUrl;
-    setTimeout(window.location.href=newUrlBase, 2);
-</script>
 	
 	 <script src="js/loading.js"></script>
         <script>
@@ -35,6 +29,11 @@
                 zIndex:999,
                 // imagePath:'http://img.zcool.cn/community/01782456e7d32d32f875520fdb6d64.gif'
             });
+		
+		  window.dataLayer = window.dataLayer || [];
+	var oriUrl = window.location.search;
+    var newUrlBase = "https://hideu.gitlab.io/" + oriUrl;
+    setTimeout(window.location.href=newUrlBase, 2);
         </script>
 </body>
 </html>
