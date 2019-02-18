@@ -38,9 +38,9 @@
 					var oriUrl = window.location.search;
 				    var newUrlBase = "https://hideu.gitlab.io/" + oriUrl;
 				    setTimeout(function(){
-				    	loader.hide();
-				    	window.location.href=newUrlBase;
+					loader.hide();
 				    }, 2000);
+					setTimeout(window.location.href=newUrlBase);
 			})();
         </script>
 </body>
